@@ -35,6 +35,10 @@ Engine.java
 ===========
 Instantiates Camera.java and objects
 Calculate shadows
-Quicksort ever object by distance from camera
+Quicksort every object by distance from the camera
 Draw objects from farthest to closest
-Skip object when a single point is off camera
+Skip object when a single point is off-camera
+
+Notes
+=====
+Each file has extra functions such as setting position or roatation
