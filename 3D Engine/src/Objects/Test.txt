@@ -1,0 +1,46 @@
+//Point
+//Pos
+//Size
+//Color
+//Status
+//Filled
+//Thickness
+
+//Sphere
+//Point
+//Size
+//Color
+//Status
+//Filled
+//Thickness
+
+//Plane
+//Points
+//Color
+//Status
+//Filled
+//Thickness
+
+//Line
+//Points
+//Thickness
+//Color
+//Status
+
+//x to set to default values
+//Pos / Point / Points, Size, Line Thickness, Color: random
+//Status, Filled: true
+//Point Size: 8
+//Outline Thickness: 0
+
+Plane
+(-15, 30, 0), (15, 30, 0), (15, 30, 10), (-15, 30, 10)
+
+Plane
+(-15, 30, 10), (-5, 30, 10), (-5, 30, 20), (-15, 30, 20)
+
+Plane
+(5, 30, 10), (15, 30, 10), (15, 30, 20), (5, 30, 20)
+
+Plane
+(-15, 30, 20), (15, 30, 20), (15, 30, 30), (-15, 30, 30)
