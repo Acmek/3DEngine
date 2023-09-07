@@ -1,7 +1,7 @@
 # 3DEngine
 IMPORTANT
 =========
-Please change directories in files to match your own
+Please change directories in files to match your own!
 
 How to Use
 ==========
