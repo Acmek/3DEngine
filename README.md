@@ -1,4 +1,8 @@
 # 3DEngine
+IMPORTANT
+=========
+Please change directories in files to match your own
+
 How to Use
 ==========
 Compile GraphicsRunner.java in order to run the engine
