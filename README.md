@@ -11,7 +11,7 @@ WASD to move
 Arrow keys to control pitch and yaw
 'R' is used to load objects listed in its function
 
-Add new objects by creating a .txt file following the format of the other .txt files
+Add new objects by creating a .txt file following the format shown in 'Objects/Test.txt' file
 Use the load() function in the Engine.java to add your object into the world either during instantiation or with 'R'
 
 Point.java
