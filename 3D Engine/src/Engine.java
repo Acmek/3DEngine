@@ -45,7 +45,9 @@ public class Engine extends Canvas implements KeyListener, Runnable {
         keys[12] = true; //edit
 
         objects = new ArrayList<Object>();
-        load("C:/Users/Kevin/Desktop/Projects/3D Engine/src/Objects/House.txt");
+
+	//Where to instantiate objects automatically
+        load("Object Directory in 'Objects' folder. Try House.txt!");
 
         light = new Light(75, 0, 50);
         objects.add(new Sphere(light.getX(), light.getY(), light.getZ(), 50, Color.YELLOW));
@@ -186,7 +188,9 @@ public class Engine extends Canvas implements KeyListener, Runnable {
         if(keys[7]) { camera.leftAndRight(125 / maxFps); } //D
         if(keys[8]) { camera.moveZ(125 / maxFps); } //Space
         if(keys[9]) { camera.moveZ(-125 / maxFps); } //Shift
-        if(keys[10]) { load("C:/Users/Kevin/Desktop/Projects/3D Engine/src/Objects/Spheres.txt"); sorted = objects.toArray(); } //R
+	    
+	//Objected loaded when 'R' is pressed
+        if(keys[10]) { load("Object Directory in 'Objects' folder. Try Spheres.txt!"); sorted = objects.toArray(); } //R
     }
 
     public int partition(Object[] arr, int low, int high)
