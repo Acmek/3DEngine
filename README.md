@@ -1,4 +1,4 @@
-# 3DEngine
+ # 3DEngine
 IMPORTANT
 =========
 Please change directories in files to match your own!
@@ -9,6 +9,9 @@ Compile GraphicsRunner.java in order to run the engine
 
 WASD to move
 Arrow keys to control pitch and yaw
+Space for up
+Shift for down
+
 'R' is used to load objects listed in its function
 
 Add new objects by creating a .txt file following the format shown in 'Objects/Test.txt' file
